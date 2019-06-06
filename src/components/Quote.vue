@@ -3,7 +3,7 @@
         <div class="pannel pannel-default">
             <div class="pannel-body quote">
                 <slot>
-                    
+
                 </slot>
             </div>
         </div>
@@ -24,6 +24,7 @@
     }
 
     .quote {
+        border: 2px black;
         cursor: pointer;
     }
 
